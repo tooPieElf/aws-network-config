@@ -54,7 +54,6 @@ Resources:
           cd /var/www/html
           echo "it works! Udagram, Udacity" > index.html
       ImageId: ami-052efd3df9dad4825
-      KeyName: mac-key
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: t2.medium
